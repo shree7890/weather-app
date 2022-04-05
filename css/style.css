@@ -1,0 +1,41 @@
+body {
+  background-image: url("./../images/weather.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .overlay {
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+} */
+
+#search {
+  cursor: pointer;
+}
+.weather-display {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  margin: 0 auto;
+  column-gap: 20px;
+  z-index: 343434;
+}
+.detailShow {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.history {
+  background-color: #fff;
+  /* text-align: center; */
+  padding: 20px 10px;
+  border-radius: 10px;
+  width: 400px;
+}
